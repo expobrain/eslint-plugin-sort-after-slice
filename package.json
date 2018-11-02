@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-sort-after-slice",
+  "version": "0.0.0",
+  "description": "Did you called slice() after sort()?",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Daniele Esposti",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "code:format": "prettier --write"
+  },
+  "dependencies": {
+    "prettier": "^1.14.3",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
