@@ -26,7 +26,7 @@ ruleTester.run("sort-after-slice", rule, {
 
   invalid: [
     {
-      code: "array.sort()",
+      code: "const a = array.sort()",
       errors: [
         {
           message: "sort() without slice()",
