@@ -19,7 +19,7 @@
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "eslint": "~3.9.1",
+    "eslint": "~4.18.2",
     "jest": "^23.6.0"
   },
   "engines": {
